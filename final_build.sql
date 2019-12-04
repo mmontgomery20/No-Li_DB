@@ -27,6 +27,10 @@
 -- -----------------------------------------------------------------------
 
 -- CLEAN BUILD
+
+SET LINESIZE 150 
+SET PAGESIZE 45
+
 DROP TABLE item CASCADE CONSTRAINTS;
 DROP TABLE customer CASCADE CONSTRAINTS;
 DROP TABLE employee CASCADE CONSTRAINTS;
